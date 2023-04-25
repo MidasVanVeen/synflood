@@ -10,7 +10,7 @@ A SYN flood attack is a form of denial-of-service (DoS) or distributed denial-of
 
 - Uses raw sockets to create and send custom TCP packets with spoofed IP addresses
 - Uses multithreading to increase the speed and efficiency of the attack
-- Requires root privileges and libpcap-dev library to run
+- Requires root privileges and a POSIX system to run
 
 ## Installation
 
