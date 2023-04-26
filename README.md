@@ -16,17 +16,19 @@ A SYN flood attack is a form of denial-of-service (DoS) or distributed denial-of
 
 To install SYN Flooder, clone this repository and compile the source code using gcc:
 
-```
+```bash
 git clone https://github.com/MidasVanVeen/synflood.git
 cd synflood
 gcc synflood.c -o synflood -lpthread
+# or build using make
+make all
 ```
 
 ## Usage
 
 To use this SYN flooder, run it as root and provide two arguments: the target IP address and the target port number. For example:
 
-```
+```bash
 sudo ./synflood 192.168.0.1 80
 ```
 
