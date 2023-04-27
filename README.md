@@ -1,4 +1,4 @@
-# SYN Flooder + IP spoofer
+# SYN Flooder with spoofed source IP
 
 this is a tool that can perform a SYN flood attack on a target server using raw sockets and multithreading.
 
